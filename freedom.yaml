@@ -6,17 +6,17 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 2023-12-14更新, server: tg_mfbpn_y5.52vpn.eu.org, port: 10088, type: vmess, uuid: 40db85f1-223f-374f-a49a-dbc9736c430f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: air.usa04.ladderlink.top}, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_164, server: 183.232.170.22, port: 30143, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_103, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_164, server: 183.232.170.22, port: 30143, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_103, server: 183.232.170.22, port: 30061, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Twitter苏小柠|深港隧道|流媒体_94, server: hexsen.com, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/argo-vmess?ed=2048", ws-headers: {Host: restored-microphone-michigan-hunting.trycloudflare.com}, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_161, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_44, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_78, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_22, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_30, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_96, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_148, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_50, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_161, server: 183.232.170.22, port: 30128, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_44, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_78, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_22, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_30, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_96, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_148, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-14更新_50, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 敏感时期|无法测速|敬请谅解_103, server: tg_mfbpn_y6.52vpn.eu.org, port: 10088, type: vmess, uuid: b2ddf5b3-77a4-30d4-a06f-5fdaead3b9ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ccyv1, ws-headers: {Host: air.usa02.ladderlink.top}, udp: true}
   - {name: US_youtube@资源分享师_208, server: sg1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 928dc6ee-495b-446f-9f20-883dedce564a, sni: sg1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -26,17 +26,17 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
   - name: ♻️ 自动选择
@@ -45,37 +45,37 @@ proxy-groups:
     interval: 300
     proxies:
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
-  - name: 🎥 NETFLIX
+  - name: 🎥 2023-12-14更新
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
   - name: ⛔️ 广告拦截
@@ -97,34 +97,34 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -132,17 +132,17 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
   - name: 📲 电报信息
@@ -151,17 +151,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
   - name: 🍎 苹果服务
@@ -171,17 +171,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
   - name: 🎯 全球直连
@@ -200,17 +200,17 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 2023-12-14更新
-      - YouTube梦歌|杭港BGP|NETFLIX_164
-      - YouTube梦歌|杭港BGP|NETFLIX_103
+      - 2023-12-14更新_164
+      - 2023-12-14更新_103
       - Twitter苏小柠|深港隧道|流媒体_94
-      - YouTube梦歌|杭港BGP|NETFLIX_161
-      - YouTube梦歌|杭港BGP|NETFLIX_44
-      - YouTube梦歌|杭港BGP|NETFLIX_78
-      - YouTube梦歌|杭港BGP|NETFLIX_22
-      - YouTube梦歌|杭港BGP|NETFLIX_30
-      - YouTube梦歌|杭港BGP|NETFLIX_96
-      - YouTube梦歌|杭港BGP|NETFLIX_148
-      - YouTube梦歌|杭港BGP|NETFLIX_50
+      - 2023-12-14更新_161
+      - 2023-12-14更新_44
+      - 2023-12-14更新_78
+      - 2023-12-14更新_22
+      - 2023-12-14更新_30
+      - 2023-12-14更新_96
+      - 2023-12-14更新_148
+      - 2023-12-14更新_50
       - 敏感时期|无法测速|敬请谅解_103
       - US_youtube@资源分享师_208
 rules:
@@ -9203,37 +9203,37 @@ rules:
  - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflximg.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflximg.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxso.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,nflxvideo.net,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 NETFLIX
- - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 NETFLIX
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
- - IP-CIDR,23.246.0.0/18,🎥 NETFLIX,no-resolve
- - IP-CIDR,37.77.184.0/21,🎥 NETFLIX,no-resolve
- - IP-CIDR,45.57.0.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,64.120.128.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,66.197.128.0/17,🎥 NETFLIX,no-resolve
- - IP-CIDR,108.175.32.0/20,🎥 NETFLIX,no-resolve
- - IP-CIDR,192.173.64.0/18,🎥 NETFLIX,no-resolve
- - IP-CIDR,198.38.96.0/19,🎥 NETFLIX,no-resolve
- - IP-CIDR,198.45.48.0/20,🎥 NETFLIX,no-resolve
- - IP-CIDR,34.210.42.111/32,🎥 NETFLIX,no-resolve
- - IP-CIDR,52.89.124.203/32,🎥 NETFLIX,no-resolve
- - IP-CIDR,54.148.37.5/32,🎥 NETFLIX,no-resolve
+ - DOMAIN-SUFFIX,2023-12-14更新.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新.net,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,nflxext.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,nflximg.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,nflximg.net,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,nflxso.net,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,nflxvideo.net,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest0.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest1.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest2.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest3.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest4.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest5.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest6.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest7.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest8.com,🎥 2023-12-14更新
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest9.com,🎥 2023-12-14更新
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 2023-12-14更新
+ - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 2023-12-14更新
+ - IP-CIDR,23.246.0.0/18,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,37.77.184.0/21,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,45.57.0.0/17,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,64.120.128.0/17,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,66.197.128.0/17,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,108.175.32.0/20,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,192.173.64.0/18,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,198.38.96.0/19,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,198.45.48.0/20,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,34.210.42.111/32,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,52.89.124.203/32,🎥 2023-12-14更新,no-resolve
+ - IP-CIDR,54.148.37.5/32,🎥 2023-12-14更新,no-resolve
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
@@ -9387,23 +9387,23 @@ rules:
  - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
  - DOMAIN-SUFFIX,naver.com,🌍 国外媒体
  - DOMAIN-SUFFIX,smartmediarep.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新.net,🌍 国外媒体
  - DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
  - DOMAIN-SUFFIX,nflximg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,nflximg.net,🌍 国外媒体
  - DOMAIN-SUFFIX,nflxso.net,🌍 国外媒体
  - DOMAIN-SUFFIX,nflxvideo.net,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest0.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest1.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest2.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest3.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest4.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest5.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest6.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 国外媒体
- - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest0.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest1.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest2.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest3.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest4.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest5.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest6.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest7.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest8.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,2023-12-14更新dnstest9.com,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - IP-CIDR,23.246.0.0/18,🌍 国外媒体,no-resolve
