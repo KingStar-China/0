@@ -5,467 +5,375 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2 3, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_90, server: 183.236.51.6, port: 10814, type: trojan, password: 7d101694-1f83-4df7-9569-6f3eb91c38f7, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_70, server: 183.236.51.6, port: 10817, type: trojan, password: c0de5f0d-2e94-4cc9-b250-1815f5afd091, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_16, server: 183.236.51.6, port: 10813, type: trojan, password: e2a9c33c-5833-4bc3-84e3-66f0163cb6b7, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_80, server: 183.236.51.6, port: 10817, type: trojan, password: 91ad178c-282a-4745-9f73-b2fc0d73a63f, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_13, server: 183.236.51.6, port: 10811, type: trojan, password: e89b6db2-046c-4765-8f40-ed64d5b45ead, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_76, server: 183.236.51.7, port: 10818, type: trojan, password: ee38e74d-043c-4b0c-a103-bd93f4724a9c, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_60, server: 183.236.51.7, port: 10812, type: trojan, password: f840be57-29e4-4e66-b517-37f0f3bde735, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_88, server: 183.236.51.6, port: 10811, type: trojan, password: 77e35607-7d86-4a07-990f-f514bed91f16, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_42, server: 183.236.51.7, port: 10815, type: trojan, password: f840be57-29e4-4e66-b517-37f0f3bde735, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_30 3 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_30 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_44 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_44 2 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_30 3 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_36, server: 183.236.51.7, port: 10816, type: trojan, password: 0c8d9212-a948-400c-8d3a-fd3d38160547, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2 2 2 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_79, server: 183.236.51.7, port: 10815, type: trojan, password: c14a0c98-26c8-4214-87a8-d24b65cb5d5d, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 3 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_58, server: 183.236.51.7, port: 10811, type: trojan, password: 98764ece-f814-4749-8853-eb15b4536171, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_67, server: 183.236.51.6, port: 10817, type: trojan, password: f840be57-29e4-4e66-b517-37f0f3bde735, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_75, server: 183.236.51.7, port: 10815, type: trojan, password: df40d860-7d8e-4787-9a10-9e23b1156341, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_8, server: 183.236.51.7, port: 10813, type: trojan, password: e9a1534a-5817-4adb-883c-923a00406d65, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 2 2 2 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_31, server: 183.236.51.6, port: 10817, type: trojan, password: eb9a7534-4cef-4743-99a3-710d836af4cb, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_44 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 6 2 3 3 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 2 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_50 2 2 2, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 2 3 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_44 2 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 2 2 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 4, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 2 2 2 4, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 3 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 5 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_26, server: 183.236.51.7, port: 10811, type: trojan, password: e89b6db2-046c-4765-8f40-ed64d5b45ead, skip-cert-verify: true, udp: true}
   - {name: 2023-12-21更新_30 3 2 3, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 3 2 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 2 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_30 2 2 3, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 2 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_139, server: 183.236.51.7, port: 10813, type: trojan, password: ed4c469a-8f46-45d4-8630-ace9cddacf0b, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 6 3 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_30, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 6 2 3 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Twitter苏小柠|深港隧道|流媒体_10, server: 54.68.65.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 2023-12-21更新_30 3 2 3 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_youtube@资源分享师_3, server: 183.236.51.6, port: 10813, type: trojan, password: c0de5f0d-2e94-4cc9-b250-1815f5afd091, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 4 3 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_44 3 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: GB_youtube@资源分享师_111, server: 13.87.81.149, port: 8523, type: ss, cipher: chacha20-ietf-poly1305, password: STahjw9LFbuww7wubs9hJ3, udp: true}
-  - {name: 2023-12-21更新_148 2 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2 3, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 2 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 2 3 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 5, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 3 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 6 2 4, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_50 2, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2 2 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_22 2 2 2 2 2 2 3, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_50 2 2 2, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_78 3 2 4, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2 3, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_50 2, server: 183.232.170.22, port: 30063, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 3 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 2 3 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_44 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 3 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_30, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3 2 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_44 2 2, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 2 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 6 3 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2023-12-21更新_96 3 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 6 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 4 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_96 3 2 2 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR_youtube@资源分享师_119, server: 146.59.44.159, port: 10000, type: vmess, uuid: d40dce90-b037-11ee-bcf3-9f21020efc07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 146.59.44.159}, udp: true}
-  - {name: 2023-12-21更新_148 6 2 3 3 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 2023-12-21更新_148 4 3 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_30 3 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2023-12-21更新_30 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_200, server: tabnak13.goodbyefilteringchannel.space, port: 2082, type: vmess, uuid: 042efc0f-4623-4a52-8195-24077f05b885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak13.goodbyefilteringchannel.space}, udp: true}
-  - {name: US_youtube@资源分享师_121, server: tabnak15.goodbyefilteringchannel.space, port: 8880, type: vmess, uuid: 7903b32d-702a-4c0a-93ea-2961b2e20775, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak15.goodbyefilteringchannel.space}, udp: true}
-  - {name: US_youtube@资源分享师_229, server: hamshahri25.goodbyefilteringchannel.space, port: 2086, type: vmess, uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: hamshahri25.goodbyefilteringchannel.space}, udp: true}
-  - {name: Twitter苏小柠|深港隧道|Netflix_320, server: 120.28.10.46, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
-  - {name: US_youtube@资源分享师_144, server: kosar5.goodbyefilteringchannel.space, port: 2086, type: vmess, uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: kosar5.goodbyefilteringchannel.space}, udp: true}
-  - {name: US_youtube@资源分享师_140, server: tabnak17.goodbyefilteringchannel.space, port: 8880, type: vmess, uuid: 7903b32d-702a-4c0a-93ea-2961b2e20775, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak17.goodbyefilteringchannel.space}, udp: true}
-  - {name: US_youtube@资源分享师_132, server: in.liangyuandiancloud.com, port: 443, type: trojan, password: 9fa3d65b-bda6-4b9d-8122-cd32e0c5ba82, sni: in.liangyuandiancloud.com, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_136, server: tabnak13.goodbyefilteringchannel.space, port: 2052, type: vmess, uuid: dd12378c-3199-440c-877c-e07d7a10ceb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak13.goodbyefilteringchannel.space}, udp: true}
-  - {name: US_youtube@资源分享师_226, server: kosar5.goodbyefilteringchannel.space, port: 8080, type: vmess, uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: kosar5.goodbyefilteringchannel.space}, udp: true}
-  - {name: Twitter苏小柠|深港隧道|流媒体_222, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
-  - {name: US_youtube@资源分享师_135, server: tabnak19.goodbyefilteringchannel.space, port: 8080, type: vmess, uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak19.goodbyefilteringchannel.space}, udp: true}
-  - {name: LY_youtube@资源分享师_127, server: 197.215.140.235, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
-  - {name: US_youtube@资源分享师_202, server: tabnak18.goodbyefilteringchannel.space, port: 8880, type: vmess, uuid: 7903b32d-702a-4c0a-93ea-2961b2e20775, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak18.goodbyefilteringchannel.space}, udp: true}
-  - {name: BD_youtube@资源分享师_123, server: 43.245.140.2, port: 443, type: vmess, uuid: ae5fa0e0-a56b-439d-9bd3-0546b50d3e18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: soft99.gotdns.ch}, udp: true}
+  - {name: 2023-12-21更新_78 2 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2 2, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 2 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_30 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2 2 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_44 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_30 2 2 3, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 2023-12-21更新_148 2 3 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_258, server: udemy.com, port: 80, type: vmess, uuid: 45ce0dfa-fb29-3c65-b761-f585965f6302, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/xiaodao?ed=2048", ws-headers: {Host: px-001.xiaoxiaobujidao.xyz}, udp: true}
+  - {name: 2023-12-21更新_148 6 2 3 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 2 3 2 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 4 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_44 3 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 2 3, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 6 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 6 2 3 3 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 6 2 4, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 4 3 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2 2 2 2 2 2, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Twitter苏小柠|深港隧道|流媒体_10, server: 54.68.65.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 2023-12-21更新_148 5, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_30 3 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 4 3 3, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3 4, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_131, server: 04.kccic2pa.xyz, port: 50004, type: vmess, uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|杭港BGP|NETFLIX_115 2 3, server: 183.232.170.22, port: 30047, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_30 3 2 2 2, server: 183.232.170.22, port: 30130, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_22 2 2 2 2 2 3, server: 183.232.170.22, port: 30139, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_11, server: 54.244.194.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 2023-12-21更新_78 3 3 2, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 2 2 2 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 2 2 2 2 2, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_youtube@资源分享师_22, server: 104.21.37.28, port: 2095, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ivideos.sbs/linkws, ws-headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}, udp: true}
+  - {name: 2023-12-21更新_44 2 3, server: 183.232.170.22, port: 30137, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Twitter苏小柠|深港隧道|流媒体_222, server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
+  - {name: 2023-12-21更新_96 3 2 3, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_78 3 2 4, server: 183.232.170.22, port: 30129, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_96 3 2 4, server: 183.232.170.22, port: 30138, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2023-12-21更新_148 5 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_132, server: in.liangyuandiancloud.com, port: 443, type: trojan, password: 9fa3d65b-bda6-4b9d-8122-cd32e0c5ba82, sni: in.liangyuandiancloud.com, skip-cert-verify: true, udp: true}
+  - {name: FR_youtube@资源分享师_119, server: 146.59.44.159, port: 10000, type: vmess, uuid: d40dce90-b037-11ee-bcf3-9f21020efc07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 146.59.44.159}, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_251, server: 120.233.43.24, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_260, server: nc.cn2.go002.xyz, port: 19511, type: ss, cipher: chacha20-ietf-poly1305, password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e, udp: true}
+  - {name: US_youtube@资源分享师_141, server: hamshahri25.goodbyefilteringchannel.space, port: 2095, type: vmess, uuid: c42b9f08-3a67-4235-8350-f63543a2d8b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: hamshahri25.goodbyefilteringchannel.space}, udp: true}
+  - {name: BD_youtube@资源分享师_153, server: 43.245.140.2, port: 443, type: vmess, uuid: 7282d494-b506-4f34-9950-fb0c18820439, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: yasoft8889.zapto.org}, udp: true}
+  - {name: MN_youtube@资源分享师_171, server: 180.149.90.66, port: 443, type: vmess, uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: irisoft.servecounterstrike.com}, udp: true}
   - {name: LY_youtube@资源分享师_148, server: 197.215.140.234, port: 80, type: vmess, uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: irisoft.servecounterstrike.com}, udp: true}
-  - {name: GB_youtube@资源分享师_264, server: 45.89.63.152, port: 10000, type: vmess, uuid: ddfcd176-b037-11ee-b844-bbc0fc2fe2b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnjantit, ws-headers: {Host: 45.89.63.152}, udp: true}
-  - {name: Twitter苏小柠|深港隧道|流媒体_105, server: 78.153.139.8, port: 60820, type: ss, cipher: chacha20-ietf-poly1305, password: i4ZnoBg5MGQnsDVM46H6u7, udp: true}
+  - {name: US_youtube@资源分享师_202, server: tabnak18.goodbyefilteringchannel.space, port: 8880, type: vmess, uuid: 7903b32d-702a-4c0a-93ea-2961b2e20775, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak18.goodbyefilteringchannel.space}, udp: true}
+  - {name: GB_youtube@资源分享师_111, server: 13.87.81.149, port: 8523, type: ss, cipher: chacha20-ietf-poly1305, password: STahjw9LFbuww7wubs9hJ3, udp: true}
+  - {name: LY_youtube@资源分享师_127, server: 197.215.140.235, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_276, server: 43.245.140.2, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: irsoft.sytes.net}, udp: true}
+  - {name: US_youtube@资源分享师_150, server: hamshahri25.goodbyefilteringchannel.space, port: 2082, type: vmess, uuid: 042efc0f-4623-4a52-8195-24077f05b885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: hamshahri25.goodbyefilteringchannel.space}, udp: true}
   - {name: US_youtube@资源分享师_131, server: hamshahri21.goodbyefilteringchannel.space, port: 8080, type: vmess, uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: hamshahri21.goodbyefilteringchannel.space}, udp: true}
-  - {name: GB_youtube@资源分享师_120, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true}
-  - {name: UZ_youtube@资源分享师_143, server: 37.110.209.228, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
+  - {name: US_youtube@资源分享师_130, server: tabnak13.goodbyefilteringchannel.space, port: 2086, type: vmess, uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabnak13.goodbyefilteringchannel.space}, udp: true}
+  - {name: 2023-12-21更新_148 6 2 3 3 2 2, server: 183.232.170.22, port: 30140, type: vmess, uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_271, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_youtube@资源分享师_161, server: kosar1.goodbyefilteringchannel.space, port: 2052, type: vmess, uuid: dd12378c-3199-440c-877c-e07d7a10ceb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: kosar1.goodbyefilteringchannel.space}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -484,480 +392,392 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - Twitter苏小柠|深港隧道|Netflix_320
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
       - Twitter苏小柠|深港隧道|流媒体_222
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - Twitter苏小拧|深港隧道|Netflix_271
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -973,117 +793,94 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2
-      - CN_youtube@资源分享师_90
-      - CN_youtube@资源分享师_70
-      - CN_youtube@资源分享师_16
-      - CN_youtube@资源分享师_80
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2
-      - CN_youtube@资源分享师_13
-      - CN_youtube@资源分享师_76
-      - CN_youtube@资源分享师_60
-      - CN_youtube@资源分享师_88
-      - CN_youtube@资源分享师_42
-      - 2023-12-21更新_30 3 2 2
-      - 2023-12-21更新_30 2 2
-      - 2023-12-21更新_44 2
-      - 2023-12-21更新_44 2 2
-      - 2023-12-21更新_22 2 2 2 2 2
-      - 2023-12-21更新_30 3 2
-      - CN_youtube@资源分享师_36
-      - 2023-12-21更新_22 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 2
-      - CN_youtube@资源分享师_79
-      - 2023-12-21更新_96 3 2
-      - 2023-12-21更新_78 3 2
-      - CN_youtube@资源分享师_58
-      - CN_youtube@资源分享师_67
-      - 2023-12-21更新_78 2
-      - 2023-12-21更新_78 3 3
-      - CN_youtube@资源分享师_75
-      - 2023-12-21更新_96 2
-      - CN_youtube@资源分享师_8
-      - 2023-12-21更新_96 2 2 2 3
-      - CN_youtube@资源分享师_31
-      - 2023-12-21更新_96 2 2 2
-      - 2023-12-21更新_44 3
-      - 2023-12-21更新_22 2 2 2
-      - 2023-12-21更新_96 3
-      - 2023-12-21更新_148 6 2 3 3 2
-      - 2023-12-21更新_96 2 2 2 2
-      - 2023-12-21更新_50 2 2 2
-      - 2023-12-21更新_78 2 3 2
-      - 2023-12-21更新_44 2 3
-      - 2023-12-21更新_78 3
-      - 2023-12-21更新_96 2 2 2 2 2
-      - 2023-12-21更新_22
-      - 2023-12-21更新_78 3 4
-      - 2023-12-21更新_96 2 2 2 4
-      - 2023-12-21更新_96 3 2 2
-      - 2023-12-21更新_148 5 2
-      - CN_youtube@资源分享师_26
       - 2023-12-21更新_30 3 2 3
-      - 2023-12-21更新_78 2 2
-      - 2023-12-21更新_96 3 2 3
-      - 2023-12-21更新_78 2 2 2
-      - 2023-12-21更新_30 2 2 3
-      - 2023-12-21更新_78 3 2 3
-      - CN_youtube@资源分享师_139
-      - 2023-12-21更新_96 6 3 2
-      - 2023-12-21更新_30
-      - 2023-12-21更新_148 6 2 3 3
-      - Twitter苏小柠|深港隧道|流媒体_10
-      - 2023-12-21更新_30 3 2 3 2
-      - CN_youtube@资源分享师_3
-      - 2023-12-21更新_148 4 3 2
-      - 2023-12-21更新_44 3 3
-      - GB_youtube@资源分享师_111
-      - 2023-12-21更新_148 2 3
-      - 2023-12-21更新_22 2 2 3
-      - 2023-12-21更新_78 2 3
-      - 2023-12-21更新_78 2 3 2 2
-      - 2023-12-21更新_148 5
-      - 2023-12-21更新_78 3 3 2
-      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
-      - 2023-12-21更新_148 6 2 4
-      - 2023-12-21更新_50 2
-      - 2023-12-21更新_78 3 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2
-      - 2023-12-21更新_22 2 2 2 2 2 2 3
+      - 2023-12-21更新_50 2 2 2
       - YouTube梦歌|杭港BGP|NETFLIX_115 2 3 2 2
-      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_22 2 2 3
+      - 2023-12-21更新_50 2
+      - 2023-12-21更新_96 3 2 2
+      - 2023-12-21更新_22 2 2
+      - 2023-12-21更新_78 2 3 2
+      - 2023-12-21更新_22 2 2 2 2 2
+      - 2023-12-21更新_78 2 2
+      - 2023-12-21更新_44 2
+      - 2023-12-21更新_22
+      - 2023-12-21更新_78 2
+      - 2023-12-21更新_96 3 2
+      - 2023-12-21更新_78 3
+      - 2023-12-21更新_30
+      - 2023-12-21更新_78 3 2 3
+      - 2023-12-21更新_44 2 2
+      - 2023-12-21更新_96 2 2 2 2
+      - 2023-12-21更新_96 6 3 2
+      - 2023-12-21更新_96 2 2 2
+      - 2023-12-21更新_22 2 2 2
       - 2023-12-21更新_96 3 2 2 2
-      - 2023-12-21更新_148 6 2
-      - 2023-12-21更新_148 4 3
-      - 2023-12-21更新_96 3 2 2 3
-      - FR_youtube@资源分享师_119
-      - 2023-12-21更新_148 6 2 3 3 3
-      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 3
+      - 2023-12-21更新_96 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2
+      - 2023-12-21更新_78 3 2 2
+      - 2023-12-21更新_30 3 2
       - 2023-12-21更新_30 2
-      - US_youtube@资源分享师_200
-      - US_youtube@资源分享师_121
-      - US_youtube@资源分享师_229
-      - Twitter苏小柠|深港隧道|Netflix_320
-      - US_youtube@资源分享师_144
-      - US_youtube@资源分享师_140
-      - US_youtube@资源分享师_132
-      - US_youtube@资源分享师_136
-      - US_youtube@资源分享师_226
-      - Twitter苏小柠|深港隧道|流媒体_222
-      - US_youtube@资源分享师_135
-      - LY_youtube@资源分享师_127
-      - US_youtube@资源分享师_202
-      - BD_youtube@资源分享师_123
+      - 2023-12-21更新_78 2 2 2
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 2
+      - 2023-12-21更新_148 2 3
+      - 2023-12-21更新_30 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 2
+      - 2023-12-21更新_44 3
+      - 2023-12-21更新_30 2 2 3
       - 2023-12-21更新_148 2 3 2
-      - US_youtube@资源分享师_258
+      - 2023-12-21更新_148 6 2 3 3
+      - 2023-12-21更新_78 2 3 2 2
+      - 2023-12-21更新_148 4 3
+      - 2023-12-21更新_78 3 2
+      - 2023-12-21更新_44 3 3
+      - 2023-12-21更新_78 2 3
+      - 2023-12-21更新_96 3
+      - 2023-12-21更新_148 6 2
+      - 2023-12-21更新_148 6 2 3 3 2
+      - 2023-12-21更新_148 6 2 4
+      - 2023-12-21更新_148 4 3 2
+      - 2023-12-21更新_22 2 2 2 2 2 2 2
+      - Twitter苏小柠|深港隧道|流媒体_10
+      - 2023-12-21更新_148 5
+      - 2023-12-21更新_30 3 2 2
+      - 2023-12-21更新_148 4 3 3
+      - 2023-12-21更新_78 3 4
+      - Twitter苏小拧|深港隧道|Netflix_131
+      - YouTube梦歌|杭港BGP|NETFLIX_115 2 3
+      - 2023-12-21更新_30 3 2 2 2
+      - 2023-12-21更新_22 2 2 2 2 2 3
+      - Twitter苏小拧|深港隧道|Netflix_11
+      - 2023-12-21更新_78 3 3 2
+      - 2023-12-21更新_96 2 2 2 3
+      - 2023-12-21更新_96 2 2 2 2 2
       - US_youtube@资源分享师_22
+      - 2023-12-21更新_44 2 3
+      - Twitter苏小柠|深港隧道|流媒体_222
+      - 2023-12-21更新_96 3 2 3
+      - 2023-12-21更新_78 3 2 4
+      - 2023-12-21更新_96 3 2 4
+      - 2023-12-21更新_148 5 2
+      - US_youtube@资源分享师_132
+      - FR_youtube@资源分享师_119
+      - Twitter苏小拧|深港隧道|Netflix_251
+      - Twitter苏小拧|深港隧道|Netflix_260
+      - US_youtube@资源分享师_141
+      - BD_youtube@资源分享师_153
+      - MN_youtube@资源分享师_171
       - LY_youtube@资源分享师_148
-      - GB_youtube@资源分享师_264
-      - Twitter苏小柠|深港隧道|流媒体_105
+      - US_youtube@资源分享师_202
+      - GB_youtube@资源分享师_111
+      - LY_youtube@资源分享师_127
+      - Twitter苏小拧|深港隧道|Netflix_276
+      - US_youtube@资源分享师_150
       - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_120
-      - UZ_youtube@资源分享师_143
+      - US_youtube@资源分享师_130
+      - 2023-12-21更新_148 6 2 3 3 2 2
+      - Twitter苏小拧|深港隧道|Netflix_271
+      - US_youtube@资源分享师_161
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
