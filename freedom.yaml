@@ -5,83 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: GB_youtube@资源分享师_95, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
-  - {name: Twitter苏小柠|深港隧道|流媒体_10, server: 54.68.65.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_77, server: api-apac01.mylab.cc, port: 443, type: vmess, uuid: 77455186-7b66-11ec-9ebc-00155d7bae98, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/forward/mclab, ws-headers: {Host: api-apac01.mylab.cc}, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_105, server: 180.149.90.66, port: 443, type: vmess, uuid: b82493e3-07b4-4cf2-b585-965575cfeb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: softiri.serveirc.com}, udp: true}
+  - {name: TJ_youtube@资源分享师_28, server: 109.68.233.242, port: 80, type: vmess, uuid: 75916879-adcf-45b3-98d8-54a2412470b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: sahar55.serveirc.com}, udp: true}
   - {name: GB_youtube@资源分享师_153, server: 93.123.11.11, port: 443, type: vmess, uuid: b85520c4-e377-4806-bc12-5be674fc4061, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: yasdl900.redirectme.net}, udp: true}
+  - {name: BD_youtube@资源分享师_105, server: 43.245.140.2, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: sahand.serveminecraft.net}, udp: true}
+  - {name: BD_youtube@资源分享师_73, server: 43.245.140.2, port: 443, type: vmess, uuid: 35944ff5-236b-4433-9bed-313213d564b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: strong98.zapto.org}, udp: true}
+  - {name: Twitter苏小拧|深港隧道|Netflix_99, server: cf.178820225.xyz, port: 80, type: vmess, uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ftuy56f, ws-headers: {Host: jc2mg.178820225.xyz}, udp: true}
   - {name: DE_youtube@资源分享师_113, server: 92.223.124.48, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
-  - {name: SE_youtube@资源分享师_195, server: 80.240.113.13, port: 80, type: vmess, uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: irisoft.servecounterstrike.com}, udp: true}
-  - {name: UA_youtube@资源分享师_110, server: 79.133.108.14, port: 443, type: vmess, uuid: 35944ff5-236b-4433-9bed-313213d564b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: strong98.zapto.org}, udp: true}
-  - {name: BR_youtube@资源分享师_185, server: 95.85.92.7, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
-  - {name: HK_youtube@资源分享师_132, server: 92.223.76.25, port: 80, type: vmess, uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: tabyan205.serveftp.com}, udp: true}
-  - {name: US_youtube@资源分享师_43, server: world18.freedomisnear.fun, port: 2052, type: vmess, uuid: 434700ed-5baf-4296-98cd-19f35150ca17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: world18.freedomisnear.fun}, udp: true}
-  - {name: US_youtube@资源分享师_190, server: world18.freedomisnear.fun, port: 2086, type: vmess, uuid: 0390dc58-0a34-4fd3-9fee-506628137768, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: world18.freedomisnear.fun}, udp: true}
-  - {name: US_youtube@资源分享师_189, server: world130.freedomisnear.fun, port: 8880, type: vmess, uuid: 8fbf948a-97b2-4689-8537-7a2cb6f3f9b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: world130.freedomisnear.fun}, udp: true}
-  - {name: US_youtube@资源分享师_160, server: world9.freedomisnear.fun, port: 2086, type: vmess, uuid: 101471cd-1f35-4e52-9e12-640359d34e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: world9.freedomisnear.fun}, udp: true}
-  - {name: US_youtube@资源分享师_195, server: world19.freedomisnear.fun, port: 443, type: vmess, uuid: 9e434d14-3b10-4f3a-b672-45582f6fc1fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /39151/@forwardv2ray, ws-headers: {Host: world19.freedomisnear.fun}, udp: true}
-  - {name: US_youtube@资源分享师_157, server: world5.freedomisnear.fun, port: 2082, type: vmess, uuid: 11c51076-8487-4d71-b9b1-3feea315aef2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: world5.freedomisnear.fun}, udp: true}
-  - {name: US_youtube@资源分享师_104, server: world130.freedomisnear.fun, port: 2095, type: vmess, uuid: d6c7181a-5486-4818-af07-11f5b8dc1244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: world130.freedomisnear.fun}, udp: true}
+  - {name: US_youtube@资源分享师_23, server: cf.178820225.xyz, port: 80, type: vmess, uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ftuy56ftgy666hh, ws-headers: {Host: jc1mg.178820225.xyz}, udp: true}
+  - {name: BD_youtube@资源分享师_71, server: 43.245.140.2, port: 443, type: vmess, uuid: b543de01-18e8-43dc-92fc-1e46e2cdbb7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /@forwardv2ray, ws-headers: {Host: majazi.zapto.org}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,88 +80,70 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - Twitter苏小拧|深港隧道|Netflix_99
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -197,21 +159,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_youtube@资源分享师_95
-      - Twitter苏小柠|深港隧道|流媒体_10
+      - Twitter苏小拧|深港隧道|Netflix_77
+      - Twitter苏小拧|深港隧道|Netflix_105
+      - TJ_youtube@资源分享师_28
       - GB_youtube@资源分享师_153
+      - BD_youtube@资源分享师_105
+      - BD_youtube@资源分享师_73
+      - Twitter苏小拧|深港隧道|Netflix_99
       - DE_youtube@资源分享师_113
-      - SE_youtube@资源分享师_195
-      - UA_youtube@资源分享师_110
-      - BR_youtube@资源分享师_185
-      - HK_youtube@资源分享师_132
-      - US_youtube@资源分享师_43
-      - US_youtube@资源分享师_190
-      - US_youtube@资源分享师_189
-      - US_youtube@资源分享师_160
-      - US_youtube@资源分享师_195
-      - US_youtube@资源分享师_157
-      - US_youtube@资源分享师_104
+      - US_youtube@资源分享师_23
+      - BD_youtube@资源分享师_71
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
