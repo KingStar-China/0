@@ -193,212 +193,30 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_93 § 16",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12003,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
+      "type": "vmess",
+      "tag": "24/08/29|深港隧道|流媒体解锁_42 § 16",
+      "server": "dcumoz.cijhgvbm.xyz",
+      "server_port": 10031,
+      "uuid": "42006f77-5c96-3f27-b059-983c064325cd",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_23 § 17",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12004,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_12 § 18",
-      "server": "82.117.226.218",
-      "server_port": 12005,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_24 § 19",
-      "server": "82.117.226.218",
-      "server_port": 12002,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_14 § 20",
-      "server": "82.117.226.218",
-      "server_port": 12003,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_17 § 21",
+      "tag": "24/08/29|深港隧道|流媒体解锁_14 § 17",
       "server": "82.117.226.218",
       "server_port": 12006,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
       "tls":       {
         "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "disable_sni": true,
         "insecure": true
       }
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_67 § 22",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12003,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_46 § 23",
-      "server": "82.117.226.218",
-      "server_port": 12071,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_15 § 24",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12006,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_27 § 25",
-      "server": "82.117.226.218",
-      "server_port": 12051,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_52 § 26",
-      "server": "82.117.226.218",
-      "server_port": 12065,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_21 § 27",
-      "server": "82.117.226.218",
-      "server_port": 12004,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_40 § 28",
-      "server": "82.117.226.218",
-      "server_port": 12070,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_20 § 29",
-      "server": "82.117.226.218",
-      "server_port": 12053,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_5 § 30",
-      "server": "82.117.226.218",
-      "server_port": 12032,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_28 § 31",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12001,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_2 § 32",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12004,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_10 § 33",
+      "tag": "24/08/29|深港隧道|流媒体解锁_43 § 18",
       "server": "82.117.226.218",
       "server_port": 12025,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
@@ -410,103 +228,7 @@
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_29 § 34",
-      "server": "82.117.226.218",
-      "server_port": 12052,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_3 § 35",
-      "server": "82.117.226.218",
-      "server_port": 12031,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_41 § 36",
-      "server": "82.117.226.218",
-      "server_port": 12069,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_1 § 37",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12002,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_8 § 38",
-      "server": "82.117.226.218",
-      "server_port": 12041,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_9 § 39",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12005,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_26 § 40",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12001,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_25 § 41",
-      "server": "82.117.226.218",
-      "server_port": 12023,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_23 § 42",
+      "tag": "24/08/29|深港隧道|流媒体解锁_7 § 19",
       "server": "82.117.226.218",
       "server_port": 12033,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
@@ -518,40 +240,139 @@
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_75 § 43",
-      "server": "naiu-hk.05vr9nyqg5.download",
-      "server_port": 13006,
-      "password": "8fc4337b-4636-44a2-a160-9d360436aa57",
+      "tag": "24/08/29|深港隧道|流媒体解锁_22 § 20",
+      "server": "82.117.226.218",
+      "server_port": 12061,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
       "tls":       {
         "enabled": true,
-        "server_name": "cloudflare.node-ssl.cdn-alibaba.com",
+        "server_name": "cdn.alibaba.com",
         "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 44",
-      "server": "69.84.182.165",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_6 § 21",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12005,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
       "tls":       {
         "enabled": true,
-        "server_name": "rh.ylks.xyz",
+        "server_name": "cn1.cdn.xfltd-cdn.top",
         "insecure": true
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
-        "headers":         {
-          "Host": "rh.ylks.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
+      }
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_4 § 45",
+      "tag": "24/08/29|深港隧道|流媒体解锁_55 § 22",
+      "server": "82.117.226.218",
+      "server_port": 12023,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_72 § 23",
+      "server": "82.117.226.218",
+      "server_port": 12071,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_2 § 24",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12002,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_10 § 25",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12006,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_17 § 26",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12001,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_76 § 27",
+      "server": "82.117.226.218",
+      "server_port": 12070,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_19 § 28",
+      "server": "82.117.226.218",
+      "server_port": 12024,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_27 § 29",
+      "server": "82.117.226.218",
+      "server_port": 12022,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_84 § 30",
+      "server": "82.117.226.218",
+      "server_port": 12053,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_11 § 31",
       "server": "82.117.226.218",
       "server_port": 12035,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
@@ -563,7 +384,187 @@
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_16 § 46",
+      "tag": "24/08/29|深港隧道|流媒体解锁_94 § 32",
+      "server": "82.117.226.218",
+      "server_port": 12065,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_36 § 33",
+      "server": "82.117.226.218",
+      "server_port": 12031,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_9 § 34",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12035,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_34 § 35",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12052,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_23 § 36",
+      "server": "82.117.226.218",
+      "server_port": 12001,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_87 § 37",
+      "server": "82.117.226.218",
+      "server_port": 12052,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_71 § 38",
+      "server": "82.117.226.218",
+      "server_port": 12069,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_20 § 39",
+      "server": "82.117.226.218",
+      "server_port": 12051,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_5 § 40",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12023,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_16 § 41",
+      "server": "82.117.226.218",
+      "server_port": 12004,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_32 § 42",
+      "server": "82.117.226.218",
+      "server_port": 12005,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_25 § 43",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12031,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_3 § 44",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12033,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_30 § 45",
+      "server": "82.117.226.218",
+      "server_port": 12072,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_24 § 46",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12025,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_26 § 47",
       "server": "82.117.226.218",
       "server_port": 12021,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
@@ -574,8 +575,107 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_31 § 48",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12032,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_185 § 49",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12004,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 47",
+      "tag": "24/08/29|深港隧道|流媒体解锁 § 50",
+      "server": "69.84.182.144",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "th.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
+        "headers":         {
+          "Host": "th.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "24/08/29|深港隧道|流媒体解锁 § 51",
+      "server": "www.hugedomains.com",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tk.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
+        "headers":         {
+          "Host": "tk.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "24/08/29|深港隧道|流媒体解锁 § 52",
+      "server": "69.84.182.76",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sk.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
+        "headers":         {
+          "Host": "sk.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_13 § 53",
+      "server": "82.117.226.218",
+      "server_port": 12003,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cn1.cdn.xfltd-cdn.top",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "24/08/29|深港隧道|流媒体解锁 § 54",
       "server": "sweet.footballlovernews.com",
       "server_port": 443,
       "uuid": "a318d48d-9882-4d88-8c73-be6e0721d0f3",
@@ -592,26 +692,113 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "vless",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 48",
-      "server": "masin.minusober.com",
-      "server_port": 443,
-      "uuid": "c35358bb-f11f-4348-ab1c-d4d2f8a982ec",
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_64 § 55",
+      "server": "cn2.cdn.xfltd-cdn.top",
+      "server_port": 12034,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
       "tls":       {
         "enabled": true,
-        "server_name": "masin.minusober.com",
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_8 § 56",
+      "server": "82.117.226.218",
+      "server_port": 12032,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_105 § 57",
+      "server": "82.117.226.218",
+      "server_port": 12075,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_12 § 58",
+      "server": "82.117.226.218",
+      "server_port": 12041,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_39 § 59",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12004,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 60",
+      "server": "204.110.220.1",
+      "server_port": 80,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sh.ylks.xyz",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/masin",
+        "path": "/freecodesfreecodes",
+        "headers":         {
+          "Host": "sh.ylks.xyz"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
       "packet_encoding": "xudp"
     },
     {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_57 § 49",
+      "tag": "24/08/29|深港隧道|流媒体解锁_80 § 61",
+      "server": "82.117.226.218",
+      "server_port": 12067,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_110 § 62",
+      "server": "82.117.226.218",
+      "server_port": 12064,
+      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tls":       {
+        "enabled": true,
+        "server_name": "cdn.alibaba.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "24/08/29|深港隧道|流媒体解锁_124 § 63",
       "server": "82.117.226.218",
       "server_port": 12066,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
@@ -622,10 +809,73 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++韩国 § 64",
+      "server": "140.238.12.52",
+      "server_port": 8443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sh.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodesfreecodes",
+        "headers":         {
+          "Host": "sh.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "24/08/29|深港隧道|流媒体解锁 § 65",
+      "server": "204.110.220.3",
+      "server_port": 80,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "tls":       {
+        "enabled": true,
+        "server_name": "tv.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "tv.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "24/08/29|深港隧道|流媒体解锁 § 66",
+      "server": "140.238.12.52",
+      "server_port": 8443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "sh.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
+        "headers":         {
+          "Host": "sh.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "trojan",
-      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_56 § 50",
-      "server": "82.117.226.218",
-      "server_port": 12064,
+      "tag": "24/08/29|深港隧道|流媒体解锁_1 § 67",
+      "server": "cn1.cdn.xfltd-cdn.top",
+      "server_port": 12001,
       "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
       "tls":       {
         "enabled": true,
@@ -635,4 +885,3 @@
     }
   ]
 }
-
