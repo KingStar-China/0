@@ -1,619 +1,414 @@
 {
   "outbounds":   [
     {
-      "type": "trojan",
-      "tag": "🇭🇰 香港核心 IEPL 01 § 0",
-      "server": "hk1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 0",
+      "server": "69.84.182.93",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇭🇰 香港核心 IEPL 02 § 1",
-      "server": "hk1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 1",
+      "server": "69.84.182.145",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇭🇰 香港核心 IEPL 03 § 2",
-      "server": "hk2.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 2",
+      "server": "www.hugedomains.com",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇭🇰 香港核心 IEPL 04 § 3",
-      "server": "hk2.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 3",
+      "server": "198.62.62.59",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇯🇵 日本核心 IEPL 01 § 4",
-      "server": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 4",
+      "server": "69.84.182.232",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇯🇵 日本核心 IEPL 02 § 5",
-      "server": "jp1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
-      "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
-      "tls":       {
-        "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "CN_youtube@资源分享师_20 § 5",
+      "server": "gdcub.yunnode.win",
+      "server_port": 35631,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a05feac6-42cd-441e-8d41-1c4577065a37"
     },
     {
-      "type": "trojan",
-      "tag": "🇯🇵 日本核心 IEPL 03 § 6",
-      "server": "jp2.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 6",
+      "server": "198.62.62.10",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇯🇵 日本核心 IEPL 04 § 7",
-      "server": "jp2.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 7",
+      "server": "69.84.182.95",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇸🇬 新加坡核心 IEPL 01 § 8",
-      "server": "sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 8",
+      "server": "198.62.62.106",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇸🇬 新加坡核心 IEPL 02 § 9",
-      "server": "sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 9",
+      "server": "69.84.182.179",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇸🇬 新加坡核心 IEPL 03 § 10",
-      "server": "sg2.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 10",
+      "server": "69.84.182.31",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇸🇬 新加坡核心 IEPL 04 § 11",
-      "server": "sg2.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 11",
+      "server": "69.84.182.234",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国核心 IEPL 01 § 12",
-      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 12",
+      "server": "69.84.182.21",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国核心 IEPL 02 § 13",
-      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 13",
+      "server": "69.84.182.89",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国核心 IEPL 03 § 14",
-      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 14",
+      "server": "69.84.182.139",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国核心 IEPL 04 § 15",
-      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 15",
+      "server": "69.84.182.214",
       "server_port": 443,
-      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
       "tls":       {
         "enabled": true,
-        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "server_name": "vv.ylkszy.eu.org",
         "insecure": true
-      }
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 16",
+      "server": "69.84.182.23",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 17",
+      "server": "69.84.182.70",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
       "type": "vmess",
-      "tag": "24/08/29|深港隧道|流媒体解锁_42 § 16",
-      "server": "dcumoz.cijhgvbm.xyz",
-      "server_port": 10031,
-      "uuid": "42006f77-5c96-3f27-b059-983c064325cd",
+      "tag": "US_youtube@资源分享师_155 § 18",
+      "server": "104.16.68.38",
+      "server_port": 2086,
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
       "security": "auto",
       "authenticated_length": true,
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_14 § 17",
-      "server": "82.117.226.218",
-      "server_port": 12006,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "disable_sni": true,
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_43 § 18",
-      "server": "82.117.226.218",
-      "server_port": 12025,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_7 § 19",
-      "server": "82.117.226.218",
-      "server_port": 12033,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_22 § 20",
-      "server": "82.117.226.218",
-      "server_port": 12061,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_6 § 21",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12005,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_55 § 22",
-      "server": "82.117.226.218",
-      "server_port": 12023,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_72 § 23",
-      "server": "82.117.226.218",
-      "server_port": 12071,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_2 § 24",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12002,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_10 § 25",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12006,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_17 § 26",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12001,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_76 § 27",
-      "server": "82.117.226.218",
-      "server_port": 12070,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_19 § 28",
-      "server": "82.117.226.218",
-      "server_port": 12024,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_27 § 29",
-      "server": "82.117.226.218",
-      "server_port": 12022,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_84 § 30",
-      "server": "82.117.226.218",
-      "server_port": 12053,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_11 § 31",
-      "server": "82.117.226.218",
-      "server_port": 12035,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_94 § 32",
-      "server": "82.117.226.218",
-      "server_port": 12065,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_36 § 33",
-      "server": "82.117.226.218",
-      "server_port": 12031,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_9 § 34",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12035,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_34 § 35",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12052,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_23 § 36",
-      "server": "82.117.226.218",
-      "server_port": 12001,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_87 § 37",
-      "server": "82.117.226.218",
-      "server_port": 12052,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_71 § 38",
-      "server": "82.117.226.218",
-      "server_port": 12069,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_20 § 39",
-      "server": "82.117.226.218",
-      "server_port": 12051,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_5 § 40",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12023,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_16 § 41",
-      "server": "82.117.226.218",
-      "server_port": 12004,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_32 § 42",
-      "server": "82.117.226.218",
-      "server_port": 12005,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_25 § 43",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12031,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_3 § 44",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12033,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_30 § 45",
-      "server": "82.117.226.218",
-      "server_port": 12072,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_24 § 46",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12025,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_26 § 47",
-      "server": "82.117.226.218",
-      "server_port": 12021,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_31 § 48",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12032,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_185 § 49",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12004,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/glweidf.sbs/linkws",
+        "headers":         {
+          "Host": "rough-wildflower-0b5e.zemel-yesenia1720.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "vless",
-      "tag": "24/08/29|深港隧道|流媒体解锁 § 50",
-      "server": "69.84.182.144",
+      "tag": "Youtube顺丰资源++美国 § 19",
+      "server": "69.84.182.106",
       "server_port": 443,
       "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "th.ylks.xyz",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
+        "path": "/freecodes",
         "headers":         {
-          "Host": "th.ylks.xyz"
+          "Host": "vh.kpcloud.eu.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -621,61 +416,7 @@
     },
     {
       "type": "vless",
-      "tag": "24/08/29|深港隧道|流媒体解锁 § 51",
-      "server": "www.hugedomains.com",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "tls":       {
-        "enabled": true,
-        "server_name": "tk.ylks.xyz",
-        "insecure": true
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
-        "headers":         {
-          "Host": "tk.ylks.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "24/08/29|深港隧道|流媒体解锁 § 52",
-      "server": "69.84.182.76",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sk.ylks.xyz",
-        "insecure": true
-      },
-      "transport":       {
-        "type": "ws",
-        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
-        "headers":         {
-          "Host": "sk.ylks.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_13 § 53",
-      "server": "82.117.226.218",
-      "server_port": 12003,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cn1.cdn.xfltd-cdn.top",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "24/08/29|深港隧道|流媒体解锁 § 54",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 20",
       "server": "sweet.footballlovernews.com",
       "server_port": 443,
       "uuid": "a318d48d-9882-4d88-8c73-be6e0721d0f3",
@@ -692,138 +433,63 @@
       "packet_encoding": "xudp"
     },
     {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_64 § 55",
-      "server": "cn2.cdn.xfltd-cdn.top",
-      "server_port": 12034,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_8 § 56",
-      "server": "82.117.226.218",
-      "server_port": 12032,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_105 § 57",
-      "server": "82.117.226.218",
-      "server_port": 12075,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_12 § 58",
-      "server": "82.117.226.218",
-      "server_port": 12041,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_39 § 59",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12004,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "Youtube顺丰资源++美国 § 60",
-      "server": "204.110.220.1",
+      "type": "vmess",
+      "tag": "US_youtube@资源分享师_54 § 21",
+      "server": "104.16.60.8",
       "server_port": 80,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "tls":       {
-        "enabled": true,
-        "server_name": "sh.ylks.xyz",
-        "insecure": true
-      },
+      "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
       "transport":       {
         "type": "ws",
-        "path": "/freecodesfreecodes",
+        "path": "/hms02.fxiaomi.sbs/link",
         "headers":         {
-          "Host": "sh.ylks.xyz"
+          "Host": "range-shape-b3fuegu.bananok182.workers.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
-      },
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_80 § 61",
-      "server": "82.117.226.218",
-      "server_port": 12067,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
       }
     },
     {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_110 § 62",
-      "server": "82.117.226.218",
-      "server_port": 12064,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "CN_youtube@资源分享师_78 § 22",
+      "server": "gdcub.yunnode.win",
+      "server_port": 35627,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a05feac6-42cd-441e-8d41-1c4577065a37"
     },
     {
-      "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_124 § 63",
-      "server": "82.117.226.218",
-      "server_port": 12066,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
-      "tls":       {
-        "enabled": true,
-        "server_name": "cdn.alibaba.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "CN_youtube@资源分享师_17 § 23",
+      "server": "gdcub.yunnode.win",
+      "server_port": 31738,
+      "method": "chacha20-ietf-poly1305",
+      "password": "d3107eb5-d91d-4499-a902-f452ec806257"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "CN_youtube@资源分享师_116 § 24",
+      "server": "gdcub.yunnode.win",
+      "server_port": 35637,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a05feac6-42cd-441e-8d41-1c4577065a37"
     },
     {
       "type": "vless",
-      "tag": "Youtube顺丰资源++韩国 § 64",
-      "server": "140.238.12.52",
-      "server_port": 8443,
+      "tag": "Youtube顺丰资源++美国 § 25",
+      "server": "69.84.182.250",
+      "server_port": 443,
       "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "sh.ylks.xyz",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/freecodesfreecodes",
+        "path": "/freecodes",
         "headers":         {
-          "Host": "sh.ylks.xyz"
+          "Host": "vh.kpcloud.eu.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -831,20 +497,165 @@
     },
     {
       "type": "vless",
-      "tag": "24/08/29|深港隧道|流媒体解锁 § 65",
-      "server": "204.110.220.3",
-      "server_port": 80,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "tag": "Youtube顺丰资源++美国 § 26",
+      "server": "69.84.182.134",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "tv.ylks.xyz",
+        "server_name": "vk.ylks.xyz",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vk.ylks.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 27",
+      "server": "198.62.62.220",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "US_youtube@资源分享师_33 § 28",
+      "server": "104.16.60.8",
+      "server_port": 2086,
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/glweidf.sbs/linkws",
+        "headers":         {
+          "Host": "1c11-muddy-rice-1c11.vetanex501.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国核心 IEPL 01 § 29",
+      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "server_port": 443,
+      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "tls":       {
+        "enabled": true,
+        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 30",
+      "server": "172.67.176.29",
+      "server_port": 443,
+      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mmdv2.pages.dev",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
         "path": "/",
         "headers":         {
-          "Host": "tv.ylks.xyz"
+          "Host": "mmdv2.pages.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "CN_youtube@资源分享师_79 § 31",
+      "server": "gdcub.yunnode.win",
+      "server_port": 31633,
+      "method": "chacha20-ietf-poly1305",
+      "password": "0ed609b3-4b7b-4f02-a5f0-94a346de49a0"
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 32",
+      "server": "172.66.47.2",
+      "server_port": 443,
+      "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
+      "tls":       {
+        "enabled": true,
+        "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "de4ecf6b.isvphp-4g8.pages.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 33",
+      "server": "69.84.182.27",
+      "server_port": 443,
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vv.ylkszy.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 34",
+      "server": "69.84.182.112",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -852,20 +663,271 @@
     },
     {
       "type": "vless",
-      "tag": "24/08/29|深港隧道|流媒体解锁 § 66",
-      "server": "140.238.12.52",
-      "server_port": 8443,
+      "tag": "Youtube顺丰资源++美国 § 35",
+      "server": "69.84.182.172",
+      "server_port": 443,
       "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "tls":       {
         "enabled": true,
-        "server_name": "sh.ylks.xyz",
+        "server_name": "vh.kpcloud.eu.org",
         "insecure": true
       },
       "transport":       {
         "type": "ws",
-        "path": "/Twitter%E8%8B%8F%E5%B0%8F%E6%9F%A0",
+        "path": "/freecodes",
         "headers":         {
-          "Host": "sh.ylks.xyz"
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vmess",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁_138 § 36",
+      "server": "104.16.60.8",
+      "server_port": 2095,
+      "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+      "security": "auto",
+      "authenticated_length": true,
+      "packet_encoding": "xudp",
+      "transport":       {
+        "type": "ws",
+        "path": "/ivideos.sbs/linkws",
+        "headers":         {
+          "Host": "8eh-band-d994.gijica5932.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 37",
+      "server": "69.84.182.61",
+      "server_port": 443,
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vv.ylkszy.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 38",
+      "server": "172.67.170.29",
+      "server_port": 443,
+      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mmdv2.pages.dev",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "mmdv2.pages.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 39",
+      "server": "172.67.163.79",
+      "server_port": 443,
+      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mmdv2.pages.dev",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "mmdv2.pages.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 40",
+      "server": "69.84.182.97",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 41",
+      "server": "69.84.182.33",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 42",
+      "server": "198.62.62.193",
+      "server_port": 443,
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vv.ylkszy.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "vv.ylkszy.eu.org"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 43",
+      "server": "69.84.182.84",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Youtube顺丰资源++美国 § 44",
+      "server": "69.84.182.178",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "tls":       {
+        "enabled": true,
+        "server_name": "vh.kpcloud.eu.org",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/freecodes",
+        "headers":         {
+          "Host": "vh.kpcloud.eu.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 45",
+      "server": "steel.footballlovernews.com",
+      "server_port": 443,
+      "uuid": "ec880e3c-2817-4b89-9887-ccc1fb7e3a52",
+      "tls":       {
+        "enabled": true,
+        "server_name": "steel.footballlovernews.com",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/steel",
+        "headers":         {
+          "Host": "steel.footballlovernews.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 46",
+      "server": "104.19.36.253",
+      "server_port": 443,
+      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mmdv2.pages.dev",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "mmdv2.pages.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Twitter苏小柠|深港隧道|流媒体解锁 § 47",
+      "server": "104.19.247.33",
+      "server_port": 443,
+      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "tls":       {
+        "enabled": true,
+        "server_name": "mmdv2.pages.dev",
+        "insecure": true
+      },
+      "transport":       {
+        "type": "ws",
+        "path": "/",
+        "headers":         {
+          "Host": "mmdv2.pages.dev"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol"
       },
@@ -873,13 +935,49 @@
     },
     {
       "type": "trojan",
-      "tag": "24/08/29|深港隧道|流媒体解锁_1 § 67",
-      "server": "cn1.cdn.xfltd-cdn.top",
-      "server_port": 12001,
-      "password": "3698a3e7-2877-4ded-a665-d81ee3cfd449",
+      "tag": "🇺🇸 美国核心 IEPL 01 § 48",
+      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "server_port": 443,
+      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
       "tls":       {
         "enabled": true,
-        "server_name": "cdn.alibaba.com",
+        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国核心 IEPL 04 § 49",
+      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "server_port": 443,
+      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "tls":       {
+        "enabled": true,
+        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国核心 IEPL 02 § 50",
+      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "server_port": 443,
+      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "tls":       {
+        "enabled": true,
+        "server_name": "144-22-163-118.nhost.00cdn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 美国核心 IEPL 03 § 51",
+      "server": "us1.535eb521-9fe0-4478-b090-2a5cee4bb04a.191981000.xyz",
+      "server_port": 443,
+      "password": "3c9e88c0-0a80-4fce-abd0-56da53477bcd",
+      "tls":       {
+        "enabled": true,
+        "server_name": "144-22-163-118.nhost.00cdn.com",
         "insecure": true
       }
     }
