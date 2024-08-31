@@ -9,7 +9,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -31,7 +34,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -53,7 +59,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -75,7 +84,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -97,7 +109,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -127,7 +142,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -148,7 +166,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -169,7 +190,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -190,7 +214,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -212,7 +239,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -234,7 +264,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -255,7 +288,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -277,7 +313,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -298,7 +337,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -320,7 +362,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -342,7 +387,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -363,7 +411,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -402,7 +453,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -423,7 +477,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "sweet.footballlovernews.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -483,7 +540,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -504,7 +564,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vk.ylks.xyz",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -525,7 +588,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -564,7 +630,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "144-22-163-118.nhost.00cdn.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -576,7 +645,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "mmdv2.pages.dev",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -605,7 +677,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -627,7 +702,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -649,7 +727,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -670,7 +751,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -709,7 +793,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -731,7 +818,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "mmdv2.pages.dev",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -752,7 +842,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "mmdv2.pages.dev",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -773,7 +866,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -794,7 +890,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -815,7 +914,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vv.ylkszy.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -837,7 +939,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -858,7 +963,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "vh.kpcloud.eu.org",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -879,7 +987,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "steel.footballlovernews.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -900,7 +1011,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "mmdv2.pages.dev",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -921,7 +1035,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "mmdv2.pages.dev",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport":       {
         "type": "ws",
@@ -942,7 +1059,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "144-22-163-118.nhost.00cdn.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -954,7 +1074,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "144-22-163-118.nhost.00cdn.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -966,7 +1089,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "144-22-163-118.nhost.00cdn.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -978,7 +1104,10 @@
       "tls":       {
         "enabled": true,
         "server_name": "144-22-163-118.nhost.00cdn.com",
-        "insecure": true
+        "utls":         {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     }
   ]
