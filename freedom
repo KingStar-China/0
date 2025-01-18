@@ -64,3 +64,7 @@ vless://41abecd9-8096-4142-a75c-4e1d36d990bd@130.162.34.17:443?security=tls&sni=
 vless://8ab3562d-c86d-551b-b4c7-f252c6e706ef@fastly.net:80?security=&sni=MOSIV2.CC&type=ws&path=/&host=MOSIV2.CC&encryption=none#Youtube%E9%A1%BA%E4%B8%B0%E8%B5%84%E6%BA%90%20%20%E7%BE%8E%E5%9B%BD%20202
 vless://41abecd9-8096-4142-a75c-4e1d36d990bd@144.24.73.232:443?security=tls&sni=mmdserver.us.kg&type=ws&path=/?ed%3D2048&host=mmdserver.us.kg&encryption=none#xiaoer886_GB_48
 vless://41abecd9-8096-4142-a75c-4e1d36d990bd@141.144.196.6:443?security=tls&sni=mmdserver.us.kg&type=ws&path=/?ed%3D2048&host=mmdserver.us.kg&encryption=none#xiaoer886_GB_10
+
+vmess://eyJhZGQiOiIxNDIuNC4xMDguMTQxIiwiYWlkIjoiNjQiLCJob3N0Ijoid3d3LjY2ODI3MTk0Lnh5eiIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwibmV0Ijoid3MiLCJwYXRoIjoiL3BhdGgvMTcyMzQ1NzYxNTAzMiIsInBvcnQiOiIzODAwNyIsInBzIjoi8J+HuvCfh7hVUy0xNDIuNC4xMDguMTQxLTYyMTQiLCJzY3kiOiJhdXRvIiwic25pIjoid3d3LjY2ODI3MTk0Lnh5eiIsInRscyI6InRscyIsInR5cGUiOiJhdXRvIiwidiI6IjIifQ==
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@125.141.31.74:28290#xiaoer886_KR_10
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@125.141.26.14:8704#xiaoer886_KR_17
